@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Rēkən</title>
+
+  <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style-child-theme.min.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+  <!-- ========== FONTS HERE ========== -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <!-- ========== /FONTS HERE ========== -->
+
+  <style>
+  /* ============== Header & Footer Assets ===========*/
+  .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: -.1%;
+      margin-left: auto;
+  }
+
+  .awa-portfolio-full-screen .overlay, .awa-portfolio-full-screen-2 .overlay {
+    /* background-color: #95ECD6; */
+  }
+
+  .awa-portfolio-full-screen .title, .awa-portfolio-full-screen-2 .title {
+    font-size: 33px;
+  }
+
+  .awa-portfolio-full-screen .category, .awa-portfolio-full-screen-2 .category {
+    font-size: 15px;
+  }
+
+  a.logo p.test {
+    color: #222222;
+    text-shadow: 1.5px 1.5px #95ECD6, -1.5px -1.5px orange;
+    width: 500px;
+    padding-top: 2%;
+    font-size: 340%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+
+  div.footer {
+      background-color: #222222;
+      padding: 35px 0 20px;
+      color: white;
+      margin-top: -1%;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      transition: -webkit-transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      -o-transition: transform 0.5s ease-in-out, transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      /* position: absolute; */
+      display: block;
+      width: 100%;
+      z-index: 30;
+  }
+
+  div.index {
+    padding: 45px 0 20px;
+  }
+
+  div.footer p {
+    color: white;
+  }
+
+  span.project-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 45%;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #999999;
+  }
+
+  /* ============== Banner Assets ================= */
+  .banner {
+    background-color: #F7F7F7;
+  }
+
+  .header-container {
+    max-width: 1800px;
+    display: flex;
+    align: center;
+    margin: 0 auto;
+  }
+
+  .overview-wrap {
+    width: 36%;
+    padding: 0 2% 0 2.5%;
+    font-size: 1.2em;
+  }
+
+  h3.title {
+    display: inline-flex;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: .2px;
+    padding: 20% 0 3% 0;
+    border-bottom: 3px solid #95ECD6;
+  }
+  /* ============== /Banner Assets ================= */
+
+  div.border-bttm {
+    border-bottom: 4px solid #F7F7F7;
+    margin-top: 5%;
+    width: 10%;
+  }
+
+  h3 {
+    font-size: 170%;
+    font-weight: bold;
+  }
+
+  div.gallery {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .single-pagination {
+    margin-top: 4%;
+  }
+
+    /* ============== Media Queries ================= */
+    @media only screen and (max-width: 1680px) {
+      h3.title {
+        padding: 16% 0 3% 0;
+        border-bottom: 3px solid #95ECD6;
+      }
+    }
+
+    @media only screen and (max-width: 1600px) {
+      h3.title {
+        padding: 18% 0 3% 0;
+        border-bottom: 3px solid #95ECD6;
+      }
+    }
+
+    @media only screen and (max-width: 1440px) {
+      .overview-wrap {
+        width: 36%;
+        padding: 0 2%;
+        font-size: 1em;
+      }
+
+      h3.title {
+        padding: 17% 0 3% 0;
+      }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .header-container {
+        display: inline;
+        margin: 0 auto;
+      }
+
+      .overview-wrap {
+        width: 85%;
+        margin: 1% auto;
+        padding: 1% 2%;
+        font-size: 1.1em;
+      }
+
+      h3.title {
+        display: inline-flex;
+        font-size: 50px;
+        letter-spacing: .2px;
+        padding: 2% 0 1% 0;
+        margin-bottom: 2%;
+        border-bottom: 3px solid #95ECD6;
+      }
+
+      p.dates {
+        margin: 0 0 20px;
+      }
+
+      .header-image img {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- MAIN_WRAPPER -->
+  <div class="spinner-preloader-wrap">
+    <div class="cssload-container">
+      <div class="cssload-whirlpool"></div>
+    </div>
+  </div>
+
+  <div class="main-wrapper" data-top="992">
+    <div class="header_top_bg" style="padding-bottom: 0;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <!-- HEADER -->
+            <header class="right-menu left">
+  						<!-- LOGO -->
+  						<a href="../index.html" class="logo">
+  							<p class="test topmenu">Kaitlynn Larkins</p>
+  							<!-- <img src="img/logo.png" alt="Awa" class="main-logo">
+  							<img src="img/logo.png" alt="Awa" class="logo-hover">
+  							<img src="img/logo.png" alt="Awa" class="main-logo logo-mobile"> -->
+  						</a>
+  						<!-- /LOGO -->
+  						<!-- MOB MENU ICON -->
+  						<a href="#" class="mob-nav">
+  							<div class="hamburger">
+  								<span class="line"></span>
+  								<span class="line"></span>
+  								<span class="line"></span>
+  							</div>
+  						</a>
+  						<!-- /MOB MENU ICON -->
+
+  						<!-- ASIDE MENU ICON -->
+  						<a href="#" class="aside-nav">
+  							<span class="aside-nav-line line-1"></span>
+  							<span class="aside-nav-line line-2"></span>
+  							<span class="aside-nav-line line-3"></span>
+  						</a>
+  						<!-- /ASIDE MOB MENU ICON -->
+
+  						<!-- NAVIGATION -->
+  						<nav id="topmenu" class="topmenu">
+  							<a href="#" class="mob-nav-close">
+  								<span>close</span>
+  								<div class="hamburger">
+  									<span class="line"></span>
+  									<span class="line"></span>
+  								</div>
+  							</a>
+
+  							<ul class="menu">
+  								<li><a class="menu-item" href="../index.html">portfolio</a></li>
+
+  								<li><a class="menu-item" href="about.html">about</a></li>
+
+  								<!-- <li><a class="menu-item" href="#">contact</a></li> -->
+  							</ul>
+  						</nav>
+  					</header>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="header-container">
+        <div class="overview-wrap">
+          <h3 class="title">Rēkən</h3>
+          <p class="dates">2019</p>
+          <div class="excerpt">
+            <p>Yanqui is a fictional festival that honors not only the music but the attendants and personalities that can be found on the grounds. Celebrating everyone from or new to the U.S. who considers themselves to be an audiophile.</p>
+            <p>The main focus of yanqui was the app designed for the festival. Which was designed to be used by both the audience and everyone working the festival as well.</p>
+          </div>
+        </div>
+
+        <div class="header-image">
+          <img src="../img/reken/reken-header.jpg" class="" alt="" />
+        </div>
+      </div> <!-- closing div for container -->
+    </div> <!-- closing div for header -->
+
+    <div class="container">
+      <div class="border-bttm"></div>
+      <h3>Brand Identity</h3>
+
+      <div class="border-bttm"></div>
+      <h3>Wireframes</h3>
+
+      <div class="images">
+        <img src="../img/yanqui/yanqui-flowchart.jpg" />
+      </div>
+
+      <div class="border-bttm"></div>
+      <h3>Final Prototype</h3>
+
+      <div class="images">
+        <img src="../img/yanqui/yanqui-wireframes.jpg" />
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="single-pagination urban">
+            <div class="pag-prev"><a href="yanqui.html" class="content">
+              <span>
+	              <span class="project-title">Yanqui</span>
+              	Previous project
+              </span></a>
+            </div>
+
+            <div class="pag-next"><a href="room.html" class="content">
+              <span>
+                <span class="project-title">ROOM</span>
+              	Next project
+              </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer new">
+    <p class="text-center">© Kaitlynn Larkins 2016–2020</p>
+  </div>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="../js/lib/modernizr-2.6.2.min.js"></script>
+  <script src="../js/lib/scripts.js"></script>
+  <script src="../js/jquery.countdown.min.js"></script>
+  <script src="../js/foxlazy.js"></script>
+  <script src="../js/jquery.easings.min.js"></script>
+  <script src="../js/jquery.multiscroll.min.js"></script>
+  <script src="../js/magnific.js"></script>
+  <script src="../js/TweenMax.min.js"></script>
+  <script src="../js/equalHeightsPlugin.js"></script>
+  <script src="../js/jquery.fancybox.min.js"></script>
+  <script src="../js/jquery.fitvids.js"></script>
+  <script src="../js/swiper3.js"></script>
+  <script src="../js/imagesloaded.pkgd.min.js"></script>
+  <script src="../js/fragment.js"></script>
+  <script src="../js/scrollMonitor.js"></script>
+  <script src="../js/slider-transition.js"></script>
+  <script src="../js/slick.js"></script>
+  <script src="../js/jquery.sliphover.min.js"></script>
+  <script src="../js/pixi.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

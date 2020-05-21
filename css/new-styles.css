@@ -1,0 +1,197 @@
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: -.1%;
+    margin-left: auto;
+}
+
+.awa-portfolio-full-screen .overlay, .awa-portfolio-full-screen-2 .overlay {
+  /* background-color: #95ECD6; */
+}
+
+.awa-portfolio-full-screen .title, .awa-portfolio-full-screen-2 .title {
+  font-size: 33px;
+}
+
+.awa-portfolio-full-screen .category, .awa-portfolio-full-screen-2 .category {
+  font-size: 15px;
+}
+
+a.logo p.test {
+  color: #222222;
+  text-shadow: 1.5px 1.5px #95ECD6, -1.5px -1.5px orange;
+  width: 500px;
+  padding-top: 2%;
+  font-size: 340%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+div.footer {
+    background-color: #222222;
+    padding: 35px 0 20px;
+    color: white;
+    margin-top: -1%;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    z-index: 30;
+}
+
+div.index {
+  padding: 45px 0 20px;
+}
+
+div.footer p {
+  color: white;
+}
+
+/* ============== Page Header ================= */
+.urban .banner-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f7f7f7;
+}
+
+a.menu-item {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .2px;
+  line-height: 1.1;
+  z-index: 1;
+}
+
+p {
+  color: black;
+}
+/* ============== /Page Headers ================= */
+
+/* ============== Banner Assets ================= */
+.banner {
+  background-color: #F7F7F7;
+}
+
+.header-container {
+  max-width: 1800px;
+  display: flex;
+  align: center;
+  margin: 0 auto;
+}
+
+.overview-wrap {
+  width: 36%;
+  padding: 0 2% 0 2.5%;
+  font-size: 1.2em;
+}
+
+h3.title {
+  display: inline-flex;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: .2px;
+  padding: 20% 0 3% 0;
+  border-bottom: 3px solid #95ECD6;
+}
+/* ============== /Banner Assets ================= */
+
+div.border-bttm {
+  border-bottom: 4px solid #F7F7F7;
+  margin-top: 5%;
+  width: 10%;
+}
+
+h3 {
+  font-size: 170%;
+  font-weight: bold;
+}
+
+div.gallery {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.single-pagination {
+  margin-top: 4%;
+}
+
+/* ============== Media Queries ================= */
+@media only screen and (max-width: 1680px) {
+  h3.title {
+    padding: 16% 0 3% 0;
+    border-bottom: 3px solid #95ECD6;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  h3.title {
+    padding: 18% 0 3% 0;
+    border-bottom: 3px solid #95ECD6;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .overview-wrap {
+    width: 36%;
+    padding: 0 2%;
+    font-size: 1em;
+  }
+
+  h3.title {
+    padding: 17% 0 3% 0;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .header-container {
+    display: inline;
+    margin: 0 auto;
+  }
+
+  .overview-wrap {
+    width: 85%;
+    margin: 1% auto;
+    padding: 1% 2%;
+    font-size: 1.1em;
+  }
+
+  h3.title {
+    display: inline-flex;
+    font-size: 50px;
+    letter-spacing: .2px;
+    padding: 2% 0 1% 0;
+    margin-bottom: 2%;
+    border-bottom: 3px solid #95ECD6;
+  }
+
+  p.dates {
+    margin: 0 0 20px;
+  }
+
+  .header-image img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* ============== Media Queries ================= */
+@media only screen and (max-width: 414px) {
+  /* body {
+    background-color: #222222;
+  } */
+
+  .mobile-hide {
+    display: none;
+  }
+
+  div.footer {
+    padding: 37px 0 22px;
+  }
+}
