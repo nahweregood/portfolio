@@ -141,6 +141,10 @@
       margin-top: 4%;
     }
 
+    p.caption {
+      font-size: 1.3em;
+    }
+
     /* ============== Media Queries ================= */
     @media only screen and (max-width: 1680px) {
       h3.title {
@@ -199,6 +203,96 @@
         margin: 0 auto;
       }
     }
+
+    @media only screen and (max-width: 800px) {
+      .single-pagination {
+          padding: 0;
+          margin-bottom: 45px;
+      }
+  	}
+
+    @media only screen and (max-width: 639px) {
+      .single-pagination {
+          padding: 0;
+          margin-bottom: 45px;
+      }
+
+      h3.title {
+        margin-left: 0;
+      }
+
+      div.border-bttm, h3 {
+        margin-left: 5%;
+      }
+
+      p.caption {
+        font-size: 1em;
+        margin: 2% 5%;
+      }
+
+      h3 {
+        font-size: 150%;
+      }
+  	}
+
+    @media only screen and (max-width: 414px) {
+  		a.logo p.test {
+  			font-size: 290%;
+  			width: 335px;
+  	    padding-top: 4.5%;
+  			padding-top: 3.5%;
+  		}
+
+  		div.mobile-hide {
+  			display: none;
+  		}
+
+  		div.footer {
+  			padding: 30px 0 20px;
+  		}
+
+      .single-pagination {
+          padding: 0;
+          margin-top: 25px;
+          margin-bottom: 35px;
+      }
+
+      .single-pagination>div a.content {
+        font-size: 15px;
+      }
+
+      div.border-bttm {
+        width: 20%;
+      }
+  	}
+
+  	@media only screen and (max-width: 400px) {
+  		a.logo p.test {
+  			width: 320px;
+  		}
+  	}
+
+  	@media only screen and (max-width: 375px) {
+  		a.logo p.test {
+  			font-size: 270%;
+  			width: 300px;
+  		}
+  	}
+
+  	@media only screen and (max-width: 360px) {
+  		a.logo p.test {
+  			font-size: 240%;
+  			width: 300px;
+  		}
+  	}
+
+  	@media only screen and (max-width: 320px) {
+  		a.logo p.test {
+  			font-size: 200%;
+  			width: 240px;
+  			padding: 3% 0;
+  		}
+  	}
   </style>
 </head>
 
@@ -287,6 +381,7 @@
     <div class="container">
       <div class="border-bttm"></div>
       <h3>Personas and User Stories</h3>
+      <p class="caption">Various examples of screen printed experimental patterns that I've been making in my down time over the years.</p>
 
       <div class="images">
         <img src="../img/yanqui/yanqui-direction.jpg" />
